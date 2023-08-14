@@ -24,6 +24,9 @@ const SocialIcons = () => {
           </a>
         </div>
       </div>
+      <div className="contact-button">
+        <a href="mailto:death.the.system@gmail.com">Contactame conmigo</a>
+      </div>
     </section>
   );
 };

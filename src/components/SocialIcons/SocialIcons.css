@@ -38,4 +38,18 @@
     /* Agrega margen inferior para ajustar la posición */
     margin-top: 13px;
   }
+
+  .contact-button {
+    margin-top: 20px;
+  }
   
+  .contact-button a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #f8b500; /* Cambia el color a tu elección */
+    transition: color 0.3s;
+  }
+  
+  .contact-button a:hover {
+    color: #fff; /* Cambia el color al pasar el cursor */
+  }
