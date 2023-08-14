@@ -18,7 +18,14 @@ const Home = () => {
       <p className="portfolio-description">
         Bienvenido a mi portafolio, donde puedes explorar algunos de mis proyectos y habilidades en desarrollo web.
       </p>
-      <button className="download-button">Descargar CV</button>
+      <a
+        href="https://www.canva.com/design/DAFpkd6w18Y/tb_YKT2yXkO_yksGuXkqWg/view?utm_content=DAFpkd6w18Y&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel"
+        target="_blank"
+        download="Francisco_Sanabria_CV.pdf"
+        className="download-button"
+      >
+        Ver Curriculum Vitae
+      </a>
     </section>
   );
 };
