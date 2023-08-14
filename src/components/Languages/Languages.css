@@ -1,0 +1,72 @@
+/* Estilos para la sección de lenguajes */
+.languages-section {
+  background-color: #f8b500;
+  padding: 100px 0;
+  color: #fff;
+}
+
+.description {
+  font-size: 18px;
+  font-family: 'Noto Sans', sans-serif;
+  margin-bottom: 30px;
+}
+
+.icons-container {
+  display: flex;
+  flex-wrap: wrap; /* Ajustar iconos a múltiples filas en dispositivos pequeños */
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-container {
+  position: relative; /* Necesario para el giro */
+  display: flex;
+  flex-direction: column; /* Cambio de dirección para icono y nombre */
+  justify-content: center;
+  align-items: center;
+  width: 120px; /* Ajusta el tamaño del cuadro según tus preferencias */
+  height: 120px; /* Ajusta el tamaño del cuadro según tus preferencias */
+  background-color: rgba(255, 255, 255, 0.1); /* Color del cuadro sombreado */
+  border-radius: 10px; /* Borde redondeado del cuadro */
+  margin: 10px; /* Espacio entre los iconos en dispositivos móviles */
+  transition: transform 0.2s, box-shadow 0.2s; /* Transiciones suaves para el efecto */
+}
+
+.icon-container:hover {
+  transform: scale(1.05); /* Efecto de acercamiento al pasar el cursor */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra al pasar el cursor */
+}
+
+.icon-container.clicked .icon {
+  animation: spin 1s infinite linear; /* Animación de giro al hacer clic */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.icon {
+  font-size: 48px;
+  color: #fff;
+  transition: transform 0.2s; /* Transición para el giro */
+}
+
+.icon-container.clicked .icon {
+  transform: rotate(0deg); /* Resetea el giro después de la animación */
+}
+
+@media (max-width: 768px) {
+  .description {
+    font-size: 16px;
+  }
+
+  .icon {
+    font-size: 36px;
+    margin: 0 10px;
+  }
+}

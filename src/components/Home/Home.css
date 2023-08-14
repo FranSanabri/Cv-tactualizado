@@ -1,0 +1,81 @@
+/* Estilos para la sección de inicio */
+.home-section {
+    background-color: #f8b500;
+    padding: 100px 0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+  }
+  
+  .name-container {
+    display: flex;
+    align-items: center;
+    animation: floatAnimation 3s infinite alternate;
+  }
+  
+  .name-animation {
+    font-size: 36px;
+    font-family: 'Pacifico', cursive;
+    margin-right: 10px;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4); /* Sombra del texto */
+  }
+  
+  .role {
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 20px;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4); /* Sombra del texto */
+  }
+  
+  @keyframes floatAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px); /* Movimiento más rápido */
+    }
+  }
+  
+  .profile-image {
+    width: 250px; /* Tamaño de la imagen */
+    height: 280px; /* Tamaño de la imagen */
+    border: 2px solid #000; /* Borde negro */
+    border-radius: 5px; /* Borde redondeado para hacer un círculo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombreado */
+    margin-top: 10px; /* Espacio entre la imagen y el nombre */
+  }
+
+  /* Estilos para el botón de descarga */
+.download-button {
+    background-color: #fff;
+    color: #f8b500;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .download-button:hover {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+  }
+  
+  
+  /* Estilos para dispositivos móviles */
+  @media (max-width: 768px) {
+    .name-animation {
+      font-size: 28px; /* Reducir tamaño de la fuente */
+    }
+  
+    .role {
+      font-size: 16px; /* Reducir tamaño de la fuente */
+    }
+  }
+  

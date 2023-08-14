@@ -1,0 +1,59 @@
+/* Estilos para el Navbar */
+.navbar-custom {
+    position: fixed; /* Fijar en la parte superior */
+    top: 0; /* Anclar en la parte superior */
+    width: 100%; /* Ancho completo */
+    background-color: rgba(0, 0, 0, 0.85);
+    border-bottom: 2px solid #f8b500;
+    transition: background-color 0.3s;
+    padding: 10px 0;
+    z-index: 1000; /* Asegurarse de que esté encima de otros elementos */
+  }
+  
+  .navbar-custom:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  
+  .navbar-brand-custom {
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #f8b500;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .navbar-brand-custom:hover {
+    color: #fff;
+  }
+  
+  .nav-link-custom {
+    font-size: 18px;
+    padding: 10px 20px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-link-custom:hover {
+    color: #f8b500;
+  }
+  
+  /* Estilos para dispositivos móviles */
+  @media (max-width: 768px) {
+    .navbar-custom {
+      background-color: rgba(0, 0, 0, 0.9);
+      padding: 10px 0;
+    }
+  
+    .navbar-brand-custom {
+      font-size: 24px;
+    }
+  
+    .nav-link-custom {
+      font-size: 16px;
+      padding: 8px 15px;
+    }
+  }
+  
