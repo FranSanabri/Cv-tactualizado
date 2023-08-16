@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -72,6 +73,17 @@
   pointer-events: none;
 }
 
+/* ... Estilos existentes ... */
+
+/* Estilo para personalizar la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 8px; /* Ancho de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00eeff; /* Color de fondo de la barra de desplazamiento */
+  border-radius: 8px; /* Bordes redondeados de la barra de desplazamiento */
+}
 
 /* Estilos para dispositivos móviles */
 @media (max-width: 768px) {
