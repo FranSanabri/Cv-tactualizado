@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+
+/* ... Estilos existentes ... */
+
+/* Agrega la animación a la flecha */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+}
+
+.arrow-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(107, 100, 100, 0.7);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  animation: bounce 2s infinite;
+  opacity: 1;
+  transition: opacity 0.3s;
+  z-index: 1000;
+}
+
+.arrow-icon.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+  .arrow-icon {
+    width: 30px;
+    height: 30px;
+    bottom: 50px;
+    right: 15px;
+  }
+}
