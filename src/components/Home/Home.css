@@ -47,14 +47,7 @@
     border-radius: 5px; /* Borde redondeado para hacer un círculo */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombreado */
     margin-top: 10px; /* Espacio entre la imagen y el nombre */
-    transition: transform 0.3s, box-shadow 0.3s; /* Transiciones para el efecto */
   }
-  
-  .profile-image:hover {
-    transform: scale(1.1); /* Efecto de zoom al pasar el cursor */
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3); /* Aumentar el sombreado */
-  }
-  
 
   /* Estilos para el botón de descarga */
 .download-button {

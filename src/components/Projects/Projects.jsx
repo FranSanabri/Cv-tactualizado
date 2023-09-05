@@ -8,6 +8,7 @@ const Projects = () => {
     { name: 'Ta-Te-Ti', image: 'http://images.produ.com/noticias/0720/big-Tateti.jpg', status: 'finished', link: 'https://proyecto-tateti.com' },
     { name: 'Celiaquia', image: 'https://i.ibb.co/z8sVR0M/Whats-App-Image-2023-08-14-at-09-55-20.jpg', status: 'fineshed', link: 'https://proyecto-celiaquia.com' },
     { name: 'Ecommerce-Bebidas', image: 'https://i.ibb.co/3vPf9QP/Captura-de-pantalla-2023-08-14-101403.png', status: 'fineshed', link: 'https://bebidas-b57bxvvsn-fransanabri.vercel.app/' },
+    { name: 'Tienda-Burgers', image: 'https://i.ibb.co/7y78S1s/Captura.png', status: 'fineshed', link: 'https://tienda-hamburguesas.vercel.app/' },
     // ... Agrega más proyectos terminados aquí
   ];
 

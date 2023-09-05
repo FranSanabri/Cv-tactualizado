@@ -17,6 +17,8 @@ const Home = () => {
       <p className="role">Desarrollador Web.</p>
       <p className="portfolio-description">
         Bienvenido a mi portafolio, donde puedes explorar algunos de mis proyectos y habilidades en desarrollo web.
+        <br /> Soy un apasionado desarrollador front-end con un enfoque en la creación de experiencias web impactantes y funcionales.
+        <br /> Mi objetivo principal es combinar diseño y tecnología para construir interfaces intuitivas y atractivas.
       </p>
       <a
         href="https://www.canva.com/design/DAFpkd6w18Y/tb_YKT2yXkO_yksGuXkqWg/view?utm_content=DAFpkd6w18Y&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel"
